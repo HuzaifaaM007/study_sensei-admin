@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 0.4;
+}
+
+/* ---------- lesson preview (matches the app's lesson screen) ---------- */
+.lesson-preview { font-size: 15px; line-height: 1.65; color: #fff; overflow-wrap: anywhere; }
+.lesson-preview h1 { font-size: 1.6rem; font-weight: 700; margin: 1.4rem 0 0.6rem; padding-bottom: 0.4rem; border-bottom: 1px solid #2e2e2e; }
+.lesson-preview h2 { font-size: 1.3rem; font-weight: 700; margin: 1.3rem 0 0.5rem; padding-bottom: 0.3rem; border-bottom: 1px solid #2e2e2e; }
+.lesson-preview h3 { font-size: 1.1rem; font-weight: 700; margin: 1.1rem 0 0.4rem; }
+.lesson-preview h4, .lesson-preview h5, .lesson-preview h6 { font-weight: 700; margin: 1rem 0 0.3rem; }
+.lesson-preview > *:first-child { margin-top: 0; }
+.lesson-preview p, .lesson-preview li, .lesson-preview blockquote { text-align: justify; }
+.lesson-preview p { margin: 0.6rem 0; }
+.lesson-preview ul { list-style: disc; padding-left: 1.4rem; margin: 0.5rem 0; }
+.lesson-preview ol { list-style: decimal; padding-left: 1.4rem; margin: 0.5rem 0; }
+.lesson-preview li { margin: 0.2rem 0; }
+.lesson-preview a { color: #3a86ff; text-decoration: underline; }
+.lesson-preview blockquote { border-left: 3px solid #9b5de5; background: #1a1a1a; padding: 0.5rem 0.9rem; margin: 0.8rem 0; color: #c8c8c8; border-radius: 0 8px 8px 0; }
+.lesson-preview code { background: #242424; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.88em; }
+.lesson-preview pre { background: #1a1a1a; border: 1px solid #2e2e2e; padding: 0.8rem 1rem; border-radius: 8px; overflow-x: auto; margin: 0.8rem 0; }
+.lesson-preview pre code { background: transparent; padding: 0; }
+.lesson-preview img { max-width: 100%; height: auto; border-radius: 8px; margin: 0.8rem 0; }
+.lesson-preview hr { border: 0; border-top: 1px solid #2e2e2e; margin: 1.2rem 0; }
+.lesson-preview table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 14px; display: block; overflow-x: auto; }
+.lesson-preview th, .lesson-preview td { border: 1px solid #2e2e2e; padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; }
+.lesson-preview th { background: #242424; font-weight: 600; }
+.lesson-preview mark { background: #fb8500; color: #000; padding: 0 0.2rem; border-radius: 3px; }
+.lesson-preview del { color: #a0a0a0; }
